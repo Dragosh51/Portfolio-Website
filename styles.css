@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: black;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: white;
+    color: black;
+    border: 1px solid #0066cc;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #0066cc;
+    color: white;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.section-title {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right {
+    width: 30%; 
+}
+
+.right img {
+    width: 482px;
+    height: 748px;
+    object-fit: cover;
+}
+
+.about-me,
+.projects,
+.skills,
+.contact {
+    margin-bottom: 30px;
+}
+
+.project-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.project-buttons a {
+    margin-bottom: 10px;
+}
